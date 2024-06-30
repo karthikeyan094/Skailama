@@ -1,120 +1,117 @@
-.project-Wrapper{
-    margin: auto 8% 4% 8%;
+.project-Wrapper {
+  margin: auto 8% 4% 8%;
 }
 
-.bth-btn{
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 120px;
-    border-radius: 35px;
-    color:#3C3C3C ;
-    box-shadow: 0px 0px 0.2px 0.2px #3c3c3c;
-    border: none;
+.bth-btn {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 120px;
+  border-radius: 35px;
+  color: #3c3c3c;
+  box-shadow: 0px 0px 0.2px 0.2px #3c3c3c;
+  border: none;
 }
 
-.new-pro-wrapper{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+.new-pro-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
-.cnp-heading{
-    color:  #7E22CE;
-    font-weight: 800px;
-    font-size: 63px;
-    margin-top: 0px;
+.cnp-heading {
+  color: #7e22ce;
+  font-weight: 800px;
+  font-size: 63px;
+  margin-top: 0px;
 }
 
-.cnp-para{
-    font-size: 25px;
-    color:#838383;
-    text-align: center;
+.cnp-para {
+  font-size: 25px;
+  color: #838383;
+  text-align: center;
 }
 
-.cnp-btn{
-    background-color: #211935;
-    color: white;
-    font-size: 20px;
-    display: flex;
-    width: 270px;
-    align-items: center;
-    justify-content: space-around;
-    padding: 10px;
-    border-radius: 10px;
-    border: none;
-
+.cnp-btn {
+  background-color: #211935;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  width: 270px;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
 }
-.cnp-form-wrapper{
-    padding: 50px;
-    border: 1px solid black;
-    border-radius: 8px;
-    padding-top: 20px;
-    position: absolute;
-    top:40%;
-    left: 16%;
-    width: 60%;
-    background-color: white;
-    box-shadow:0px 0px 1px 1px #b5b2b2;
-    border-color: white;
-
+.cnp-form-wrapper {
+  padding: 50px;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding-top: 20px;
+  position: absolute;
+  top: 40%;
+  left: 16%;
+  width: 60%;
+  background-color: white;
+  box-shadow: 0px 0px 1px 1px #b5b2b2;
+  border-color: white;
 }
-.cnp-form-wrapper label{
-    font-size: 16px;
+.cnp-form-wrapper label {
+  font-size: 16px;
 }
-.cnp-error{
-    font-size: 16px;
-    color: red;
-    margin-top: 4px;
+.cnp-error {
+  font-size: 16px;
+  color: red;
+  margin-top: 4px;
 }
-.show-cnp-error{
-    visibility: visible;
+.show-cnp-error {
+  visibility: visible;
 }
-.hide-cnp-error{
-    visibility: hidden;
+.hide-cnp-error {
+  visibility: hidden;
 }
-.cnp-form-wrapper h3{
-    margin-top: 0;
-    font-weight: 800;
-    font-size: 24px;
+.cnp-form-wrapper h3 {
+  margin-top: 0;
+  font-weight: 800;
+  font-size: 24px;
 }
-.cnp-form-wrapper input{
-    width: 100%;
-    padding: 10px;
-    margin-top: 10px;
-    border-radius: 8px;
-    border: 1px solid #838383;
+.cnp-form-wrapper input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: 1px solid #838383;
 }
-.form-calcel-btn{
-    background-color: white;
-    border: none;
-    color: red;
-    font-size: 16px;
-    margin-right: 8px;
+.form-calcel-btn {
+  background-color: white;
+  border: none;
+  color: red;
+  font-size: 16px;
+  margin-right: 8px;
 }
-.form-create-btn{
-    background-color: #7E22CE;
-    color: white;
-    border: none;
-    padding: 8px;
-    font-size: 16px;
-    border-radius: 8px;
-
+.form-create-btn {
+  background-color: #7e22ce;
+  color: white;
+  border: none;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 8px;
 }
 
-.project-heading-wrapper{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 8px;
+.project-heading-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
 }
 
-.project-list-wrapper{
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    gap: 30px;
+.project-list-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 30px;
 }

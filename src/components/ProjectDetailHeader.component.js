@@ -1,7 +1,7 @@
 import React from "react";
 import "./ProjectDetailHeader.css";
 import engFlag from "../assets/engFlag.png";
-const ProjectDetailHeader = ({project,type}) => {
+const ProjectDetailHeader = ({ project, type }) => {
   return (
     <div className="project-header-wrapper">
       <div className="header-icon-wrapper">

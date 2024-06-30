@@ -1,16 +1,15 @@
-.upload-card-wrapper{
-    display: flex;
-    gap: 32px;
-    align-items: center;
-    width: 33%;
-    padding: 16px;
-    /* border: 1px solid red; */
-    box-shadow: 0px 0px 1px 1px #999999;
-    border-radius: 16px;
-
+.upload-card-wrapper {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  width: 33%;
+  padding: 16px;
+  /* border: 1px solid red; */
+  box-shadow: 0px 0px 1px 1px #999999;
+  border-radius: 16px;
 }
-.upload-card-wrapper p{
-    font-weight: 700;
-    color: #3C3C3C;
-    margin: 0px;
+.upload-card-wrapper p {
+  font-weight: 700;
+  color: #3c3c3c;
+  margin: 0px;
 }

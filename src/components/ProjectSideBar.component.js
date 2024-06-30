@@ -1,8 +1,9 @@
 import React from "react";
-import "./ProjectSideBar.css"
-const ProjectSideBar = ({active,hadleActive})=>{
-    return <div className="side-bar-wrapper">
-        <div className="sidebar-brand-wrapper">
+import "./ProjectSideBar.css";
+const ProjectSideBar = ({ active, hadleActive }) => {
+  return (
+    <div className="side-bar-wrapper">
+      <div className="sidebar-brand-wrapper">
         <svg
           width="53"
           height="53"
@@ -23,27 +24,56 @@ const ProjectSideBar = ({active,hadleActive})=>{
         <h1 className="brand">LAMA.</h1>
       </div>
       <div>
-      <div>
-        <p className="head-size">Podcast Upload Flow</p>
-        <div className={active!=="project"?"sidebar-items head-size":"head-size active-item"} style={{marginTop:"8px"}} onClick={()=>hadleActive("project")}>
+        <div>
+          <p className="head-size">Podcast Upload Flow</p>
+          <div
+            className={
+              active !== "project"
+                ? "sidebar-items head-size"
+                : "head-size active-item"
+            }
+            style={{ marginTop: "8px" }}
+            onClick={() => hadleActive("project")}
+          >
             <p className="item-number">1</p>
             <p>Project</p>
-        </div>
-        <div className={active!=="widget"?"sidebar-items head-size":"head-size active-item"}  onClick={()=>hadleActive("widget")}>
+          </div>
+          <div
+            className={
+              active !== "widget"
+                ? "sidebar-items head-size"
+                : "head-size active-item"
+            }
+            onClick={() => hadleActive("widget")}
+          >
             <p className="item-number">2</p>
             <p>Widget Configuration</p>
-        </div>
-        <div  className={active!=="Deployment"?"sidebar-items head-size":"head-size active-item"} onClick={()=>hadleActive("Deployment")}>
+          </div>
+          <div
+            className={
+              active !== "Deployment"
+                ? "sidebar-items head-size"
+                : "head-size active-item"
+            }
+            onClick={() => hadleActive("Deployment")}
+          >
             <p className="item-number">3</p>
             <p>Deployment</p>
-        </div>
-        <div className={active!=="pricing"?"sidebar-items head-size":"head-size active-item"} onClick={()=>hadleActive("pricing")}>
+          </div>
+          <div
+            className={
+              active !== "pricing"
+                ? "sidebar-items head-size"
+                : "head-size active-item"
+            }
+            onClick={() => hadleActive("pricing")}
+          >
             <p className="item-number">4</p>
             <p>Pricing</p>
+          </div>
         </div>
       </div>
-      </div>
     </div>
-
-}
+  );
+};
 export default ProjectSideBar;
