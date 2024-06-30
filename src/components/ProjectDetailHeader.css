@@ -1,0 +1,11 @@
+.project-header-wrapper{
+    display: flex;
+    padding: 32px;
+    justify-content: space-between;
+    width: 1000px
+}
+.header-icon-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
